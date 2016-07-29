@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: /u/pr0methaz1ne <dynasticdevelopment@gmail.com>
 Filename: deb//ThemeVeexillumIcons.deb
 Size: 538714
-MD5sum: ffa6e1b64fee64762aaf2c82848b8f09
-SHA1: a8b6587f51575771b49d882ec424537db27c741a
-SHA256: 73a61409dbc179ab0fd04951d9e8f2a67e8debf80a5962b12dad8cdf4a41ef4b
+MD5sum: 178ef7b6124d026db32ceca0fc08fcd4
+SHA1: 8bf01a0caaf128d4dbe4c645af7199f2148fadae
+SHA256: 495e9060e8ea04a5e07aabe630b11eb6270d2cea27ccdead9029b7f2fa0e7144
 Section: Themes
 Homepage: None
 Description: Extra Icons for Veexillum. MAKE SURE YOU HAVE VEEXILLUM DOWNLOADED FOR THIS TO WORK! Now themes Egg Inc., Betternet, Comet, Poker Plus, Netkillui, SMSFlooder. 1.0.1 Update: Added rudimentary NextDoor icon
