@@ -23,7 +23,7 @@ sub md5sum {
 }
 
 # build packages into deb/
-system("chmod 0755 uncompiled-packages/ -R");
+system("chmod -R 0755 uncompiled-packages/");
 
 my $directory = 'uncompiled-packages/';
 opendir (DIR, $directory) or die $!;
