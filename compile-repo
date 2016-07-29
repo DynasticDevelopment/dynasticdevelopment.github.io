@@ -4,8 +4,8 @@
 # Purpose: Compiles a Cydia repository
 
 use Digest::MD5;
- 
-sub md5sum {   
+
+sub md5sum {
     my $file = shift;
     my $digest = "";
     eval {
@@ -17,31 +17,31 @@ sub md5sum {
     };
     if ($@) {
         print $@;
-        return ""; 
-    }  
+        return "";
+    }
     return $digest;
 }
 
-# build packages into deb/ 
+# build packages into deb/
 system("chmod 0755 uncompiled-packages/ -R");
 
 my $directory = 'uncompiled-packages/';
 opendir (DIR, $directory) or die $!;
 while (my $file = readdir(DIR)) {
-	system("dpkg -b uncompiled-packages/".$file." deb/".$file.".deb");
+	system("dpkg -Zgzip -b uncompiled-packages/".$file." deb/".$file.".deb");
 }
 closedir(DIR);
 
-# scan the packages and write output to file Packages 
+# scan the packages and write output to file Packages
 system("dpkg-scanpackages deb / > Packages");
 
-# bzip2 it to a new file 
+# bzip2 it to a new file
 system("bzip2 -fks Packages");
 
-# scan again because we zipped the original file  
+# scan again because we zipped the original file
 system("dpkg-scanpackages deb / > Packages");
 
-# calculate the hashes and write to Release  
+# calculate the hashes and write to Release
 system("cp Release-Template Release");
 open(RLS, ">>Release");
 
