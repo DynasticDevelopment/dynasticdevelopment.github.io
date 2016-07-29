@@ -4,29 +4,13 @@ Architecture: iphoneos-arm
 Maintainer: /u/pr0methaz1ne <dynasticdevelopment@gmail.com>
 Filename: deb//ThemeVeexillumIcons.deb
 Size: 461620
-MD5sum: c8cca68c8a2ac286ea323beecfca4142
-SHA1: b81011b4e8efe450d3c87f6b6b7ee224a5028185
-SHA256: 45d143b53e626aff2877e7a708258d474ac56976f2423dfbba4be0fd156d72f3
+MD5sum: f1a2717decf66ce0cc1ebadf34e30a33
+SHA1: b33f998d586cbb3a2ec7a42262a1451f0a2196f2
+SHA256: b03218cb2c44d5c022b5fa637ee050831416b0aafa5cad00ac96307837c0d397
 Section: Themes
 Homepage: None
 Description: Extra Icons for Veexillum
 Author: /u/pr0methaz1ne <pr0methaz1neZ@gmail.com>
 Depiction: None
 Name: Extra Veexillum Icons
-
-Package: com.me.hello.jello
-Version: 0.0.1-54+debug
-Architecture: iphoneos-arm
-Maintainer: anon
-Installed-Size: 136
-Depends: mobilesubstrate
-Filename: deb//com.me.hello.jello_0.0.1-54+debug_iphoneos-arm.deb
-Size: 6188
-MD5sum: 85ead9b48483f140ac237b4276a09bff
-SHA1: 7a9e72f81863d5bab1057c94b14c646f58adabdd
-SHA256: ec93d5759ba37b31d11e72be0f5fd41cd8ef71b634cd7edba3244cc62a454ecd
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: anon
-Name: helloworld
 
