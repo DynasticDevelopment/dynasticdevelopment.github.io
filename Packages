@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: Josh <pr0methaz1neZ@gmail.com>
 Filename: deb//ThemeVeexillumIcons.deb
 Size: 322558
-MD5sum: 2340264c5157736964dc99b14d6ae072
-SHA1: 6700ce1ab79a1145c525f8b4f6eb0f35e3c015fc
-SHA256: d35c37958d49b12d733ccb8601f158f32f9f4c80d87df0b5f9441b2cb3937eb1
+MD5sum: 37b25d86016fcb96537c60fe616da751
+SHA1: 1c01db6e4342ae916e23e61c80adf695ea22af8c
+SHA256: 668c2a56e7a8085fa71e377a090551aaf7ac9f9a8e1e9a93d4db9abbb8fe1b83
 Section: Themes
 Homepage: None
 Description: Extra Icons for Veexillum
