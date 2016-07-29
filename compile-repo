@@ -61,5 +61,6 @@ foreach (@files) {
 print RLS $output;
 close(RLS);
 
+system("find . -name ‘*.DS_Store’ -type f -delete");
 
 exit 0;
