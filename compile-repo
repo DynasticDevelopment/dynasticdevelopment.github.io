@@ -63,4 +63,6 @@ close(RLS);
 
 system("find . -name ‘*.DS_Store’ -type f -delete");
 
+system("git add . && git commit -m 'Update repo - automated' && git push");
+
 exit 0;
