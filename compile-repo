@@ -28,7 +28,7 @@ system("chmod 0755 uncompiled-packages/ -R");
 my $directory = 'uncompiled-packages/';
 opendir (DIR, $directory) or die $!;
 while (my $file = readdir(DIR)) {
-	system("dpkg -Zgzip -b uncompiled-packages/".$file." deb/".$file.".deb");
+	system("dpkg-deb -Zgzip -b uncompiled-packages/".$file." deb/".$file.".deb");
 }
 closedir(DIR);
 
