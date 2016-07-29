@@ -38,9 +38,6 @@ system("dpkg-scanpackages deb / > Packages");
 # bzip2 it to a new file 
 system("bzip2 -fks Packages");
 
-# gzip it  
-system("gzip -f Packages");
-
 # scan again because we zipped the original file  
 system("dpkg-scanpackages deb / > Packages");
 
