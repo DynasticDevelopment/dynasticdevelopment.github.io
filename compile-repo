@@ -48,7 +48,7 @@ system("dpkg-scanpackages deb / > Packages");
 system("cp Release-Template Release");
 open(RLS, ">>Release");
 
-@files = ("Packages", "Packages.gz", "Packages.bz2");
+@files = ("Packages", "Packages.bz2");
 my $output = "";
 
 foreach (@files) {
