@@ -1,12 +1,12 @@
 Package: com.VeexillumIcons.package
-Version: 2.0.4
+Version: 2.0.5
 Architecture: iphoneos-arm
 Maintainer: /u/pr0methaz1ne <dynasticdevelopment@gmail.com>
 Filename: deb/ThemeVeexillumIcons.deb
-Size: 459184
-MD5sum: 4df4ea7149c1bc644663a92e7cbdc799
-SHA1: 03f0a861bd8aece849886bb0e45e3f6f60b7b6e6
-SHA256: e29406a02d5f60b0febc61465417a2ddc809a3e7d9611f037aef34265f16cea6
+Size: 459182
+MD5sum: 3ca95662fb92160799a345e3cae8c113
+SHA1: 3c88cb3fd76182247c460c89ba986013ce05b606
+SHA256: 37c6b600c755e8400ab7426fad53a44f5a68cb5cdef9a3647c1fc59bd3eb43d0
 Section: Themes
 Homepage: None
 Description: Extra Icons for Veexillum
